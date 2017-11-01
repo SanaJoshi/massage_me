@@ -1,2 +1,36 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+
+
+<link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheets/application.scss">
+
+
+<div class="card-deck">
+
+  <div class="card">
+      <%= image_tag("swed2.png", :class =>"swedish") %>
+      <h4 class="card-title">Swedish massage</h4>
+  </div>
+
+  <div class="card">
+    <%= image_tag("prenatal.png", :class =>"prenatal") %>
+    <h4 class="card-title">Prenatal massage</h4>
+    </div>
+
+  <div class="card">
+    <%= image_tag("deeptissue.png", :class =>"deeptissue") %>
+    <h4 class="card-title">Deep tissue massage</h4>
+
+  </div>
+</div>
+
+
+<div class="client">
+  <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+  I want massage
+  </button>
+
+</div>
+<div class="massause">
+  <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+I want to give massage
+</button>
+</div>

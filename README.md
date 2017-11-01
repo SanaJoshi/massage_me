@@ -1,24 +1,36 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<div class="card">
+  <%= image_tag("prenatal.png", :class =>"prenatal") %>
+  <div class="card-body">
+    <h4 class="card-title">prenatal</h4>
+    </div>
+  </div>
+  <div class="card">
+    <%= image_tag("swedish.png", :class =>"swedish") %>
+    <div class="card-body">
+      <p class="card-text">swedish massage</p>
+    </div>
+  </div>
 
-Things you may want to cover:
+  <nav class="navbar">
+    <a class="navbar-brand">
+        <%= image_tag("logo.png", :class =>"logo") %>
+         By her For her
+    </a>
+  </nav>
 
-* Ruby version
+  
+  .navbar-brand{
+    color: red;
+  }
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  .container-fluid img{
+  max-height: 400px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  }

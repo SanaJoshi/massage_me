@@ -14,3 +14,69 @@
 
  */
   @import "bootstrap";
+
+
+  .logo{
+    height: 30px;
+    width: 30px;
+  }
+
+.logo_description {
+  color:white;
+  font-weight: bold;
+  font-family: 'Rozha One', serif;
+
+}
+
+.card-deck img{
+max-height: 300px;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+.client{
+
+  height:20px;
+  width:100px;
+  margin: -20px -50px;
+  position:relative;
+  top:50%;
+  left:50%;
+  margin-top: 50px;
+font-family: 'Rozha One', serif;
+}
+
+.massause{
+
+  height:20px;
+  width:100px;
+  margin: -20px -50px;
+  position:relative;
+  top:50%;
+  left:50%;
+  margin-top: 50px;
+  font-family: 'Rozha One', serif;
+
+}
+.btn-success {
+    background: #800000;
+
+}
+.card-title{
+  color: #800000;
+  text-align: center;
+  font-family: 'Rozha One', serif;
+}
+.card{
+  border: 0;
+}
+
+.logout_btn{ width: 100%;}
+.logout_btn a{
+ float: right;
+
+
+}
+ .navbar_marron{
+    background-color: #800000;
+ }
