@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+
+
+
+
+
+
+
+<div class="row">
+    <%#= @products.inspect %>
+    <% @products.each do |product| %>
+      <div class="col-md-3">
+        <!-- <a href="#" class="thumbnail"> -->
+        <%= image_tag(product.image_url, width: "100%", height: "100%")%>
+        <!-- </a> -->
+        <p>  <%= product.discription %></p>
+
+      </div>
+    <% end %>
+
+    <!-- </td> -->
+    <!-- <% if @product.blank? %>
+      <h4>There are no photos containing the term <%= params[:search] %>.</h4>
+    <% end %> -->
+</div>
+
+<%#= link_to ' Click here to upload New Product', new_product_path %>
