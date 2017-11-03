@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :reviews
   resources :profiles
   resources :products
+  resources :charges
   root 'home#index'
   devise_for :users
 
