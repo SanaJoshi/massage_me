@@ -25,5 +25,7 @@
   <%= @profile.user.email %>
 </p>
 
+<p><iframe src = "https://maps.google.com/maps?q=<%= @profile.latitude %>,<%= @profile.longitude %>&hl=es;z=14&amp;output=embed"></iframe></p>
+
 <%= link_to 'Edit', edit_profile_path(@profile) %> |
 <%= link_to 'Add product', new_product_path %>
