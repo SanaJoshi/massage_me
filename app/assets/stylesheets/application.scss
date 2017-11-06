@@ -15,7 +15,7 @@
  */
   @import "bootstrap";
   @import "products.scss";
-
+  @import "home.scss";
 
 
   .logo{
@@ -45,7 +45,8 @@ margin-bottom: 50px;
   top:50%;
   left:50%;
   margin-top: 50px;
-font-family: 'Rozha One', serif;
+  font-family: 'Rozha One', serif;
+  color:red;
 }
 
 .massause{
