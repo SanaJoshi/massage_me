@@ -23,14 +23,14 @@
 </div>
 
 
-
-
 <div class="massause">
-<%= link_to '<button type="button">I want to give massage</button>'.html_safe, new_profile_path %>
+  <!-- <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off"> -->
+<%= link_to 'I want massage', products_path, class: "btn btn-success" %>
+<!-- </button> -->
 </div>
 
 <div class="massause">
   <!-- <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off"> -->
-<%= link_to 'I want massage', products_path, class: "btn btn-success" %>
+<%= link_to 'I want to give massage', new_profile_path %>
 <!-- </button> -->
 </div>

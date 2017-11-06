@@ -12,9 +12,15 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :avtar_data %>
-    <%= form.text_area :avtar_data, id: :profile_avtar_data %>
+ <%= form.file_field :image, id: :profile_image %>
+  <%#= form.hidden_field :image, value: @product.cached_image_data if defined? (@product.cached_image_data) %>
+  <%#= form.file_field :image %>
+
   </div>
+  <!-- <div class="field">
+    <%#= form.label :avtar_data %>
+    <%#= form.text_area :avtar_data, id: :profile_avtar_data %>
+  </div> -->
 
   <!-- provide image uploader option -->
 

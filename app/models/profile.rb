@@ -1,5 +1,7 @@
 class Profile < ApplicationRecord
-  belongs_to :user
+  include ImageUploader::Attachment.new(:image)
+  belongs_to :user, optional: true
+
   geocoded_by :address
 after_validation :geocode
 
