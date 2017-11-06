@@ -24,6 +24,28 @@
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
+
+
+
+<div>
+  <% @reviews.each do |review| %>
+    <div>
+      <strong><%= review.user %></strong>
+      <br />
+      <p><%= review.comment %></p>
+      <% if user_signed_in? && review.user == current_user %>
+        <p><%= link_to 'Delete', review_path(review), method: :delete %></p>
+      <% end %>
+    </div>
+  <% end %>
+  <% if user_signed_in? %>
+    <%= render 'reviews/form' %>
+  <% end %>
+</div>
+
+
+
+
 <div>
 <%= form_tag charges_path do %>
   <article>

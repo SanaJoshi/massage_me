@@ -10,7 +10,13 @@ class ProductsController < ApplicationController
   # GET /products/1
   # GET /products/1.json
   def show
-  end 
+    @product = Product.includes(:user).find(params[:id])
+    @reviews = @product.reviews.includes(:user).all
+    @review  = @product.reviews.build(user_id: current_user.id) if current_user
+
+
+
+  end
 
   # GET /products/new
   def new

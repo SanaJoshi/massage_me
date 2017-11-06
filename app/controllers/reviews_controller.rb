@@ -10,7 +10,7 @@ class ReviewsController < ApplicationController
   # GET /reviews/1
   # GET /reviews/1.json
   def show
-    @review = Review.find(params[:id])
+    # @review = Review.find(params[:id])
   end
 
   # GET /reviews/new
@@ -24,11 +24,26 @@ class ReviewsController < ApplicationController
 
   # POST /reviews
   # POST /reviews.json
-  def create
+  # def create
+  #
+  #   @product = Product.find(params[:product_id])
+  #   @product.reviews.create(review_params)
+  #   redirect_to product_path(@product)
+  # end
 
-    @product = Product.find(params[:product_id])
-      @product.reviews.create(review_params)
-      redirect_to product_path(@product)
+  def create
+    @review = Review.new(review_params)
+    respond_to do |format|
+      if @review.save
+        format.any
+        # format.html { redirect_to @rating, notice: 'Rating was successfully created.' }
+        format.json { render :show, status: :created, location: @review }
+        redirect_back(fallback_location: reviews_path)
+      else
+        format.html { render :new }
+        format.json { render json: @review.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
   # PATCH/PUT /reviews/1
