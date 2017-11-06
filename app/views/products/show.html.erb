@@ -30,7 +30,7 @@
 <div>
   <% @reviews.each do |review| %>
     <div>
-      <strong><%= review.user %></strong>
+      <strong><%= review.user.email%></strong>
       <br />
       <p><%= review.comment %></p>
       <% if user_signed_in? && review.user == current_user %>

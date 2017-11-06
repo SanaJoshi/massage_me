@@ -15,10 +15,11 @@
   <div class="row">
     <% @products.each do |product| %>
      <div class="col-md-4">
-    <p><img src="<%= product.image_url if defined? product.image_url %>" alt="Product Image" height="100%" width="100%"></td><p>
-
-    <p class="text-h4"> <%= link_to product.name,product %> </p>
-    <p class="text-h4"><%= product.discription %> </p
+       <div class="thumbnail">
+          <img src="<%= product.image_url if defined? product.image_url %>" alt="Product Image" height="100%" width="100%">
+       </div>
+      <p class="text-h4"> <%= link_to product.name,product %> </p>
+      <p class="text-h4"><%= product.discription %> </p>
       <p class="text-h4"><%= product.price %> </p>
     </div>
     <% end %>

@@ -23,16 +23,14 @@
 </div>
 
 
-<div class="client">
-<%= link_to '<button type="button">I want massage</button>'.html_safe, products_path %>
 
-</div>
+
 <div class="massause">
-<%= link_to '<button type="button">I want to give massage</button>'.html_safe, new_user_registration_path %>
+<%= link_to '<button type="button">I want to give massage</button>'.html_safe, new_profile_path %>
 </div>
 
-<!-- <div class="massause">
-  <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
-I want to give massage
-</button>
-</div> -->
+<div class="massause">
+  <!-- <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off"> -->
+<%= link_to 'I want massage', products_path, class: "btn btn-success" %>
+<!-- </button> -->
+</div>
