@@ -26,6 +26,10 @@ You are to design, build, deploy and present a Ruby on Rails application.
 
  ![image](https://user-images.githubusercontent.com/28730748/32476005-dd4bd3e2-c3c8-11e7-9660-7b65cf012738.png)
 
+ #### Colour Theme and Fonts
+
+ <img width="1162" alt="pininterest" src="https://user-images.githubusercontent.com/28730748/32480448-07e169ae-c3e3-11e7-9cbb-3a25bac8d557.png">
+
 
 
 
