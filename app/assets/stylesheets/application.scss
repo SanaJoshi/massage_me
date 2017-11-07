@@ -17,6 +17,7 @@
   @import "products.scss";
   @import "home.scss";
 
+img{ max-width:100%; height: auto; border: 0;}
 
   .logo{
     height:30px;
@@ -46,7 +47,7 @@ margin-bottom: 50px;
   left:50%;
   margin-top: 50px;
   font-family: 'Rozha One', serif;
-  
+
 }
 
 .massause{
@@ -83,3 +84,9 @@ margin-bottom: 50px;
  .navbar_marron{
     background-color: #800000;
  }
+
+ .thumbnail img{ height: 250px; margin-bottom: 10px;}
+
+
+.product-desc{  color: #800000;
+  font-family: 'Rozha One', serif;}

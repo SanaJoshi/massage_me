@@ -1,7 +1,7 @@
 
 
 
-# Rails Two-Sided Marketplace Application
+# Rails Two-Sided Marketplace Application - 2nd term main Project
 
 
 

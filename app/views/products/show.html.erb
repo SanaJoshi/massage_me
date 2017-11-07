@@ -1,12 +1,12 @@
-<p id="notice"><%= notice %></p>
-
-
+<div class="container">
+  <div class="row">
+<div class="col-md-6">
   <p>
   <img src="<%= @product.image_url %>">
   </p>
   <!-- <strong>Image data:</strong> -->
-
-
+</div>
+<div class="col-md-6">
 <p>
   <strong>Name:</strong>
   <%= @product.name %>
@@ -24,27 +24,6 @@
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
-
-
-
-<div>
-  <% @reviews.each do |review| %>
-    <div>
-      <strong><%= review.user.email%></strong>
-      <br />
-      <p><%= review.comment %></p>
-      <% if user_signed_in? && review.user == current_user %>
-        <p><%= link_to 'Delete', review_path(review), method: :delete %></p>
-      <% end %>
-    </div>
-  <% end %>
-  <% if user_signed_in? %>
-    <%= render 'reviews/form' %>
-  <% end %>
-</div>
-
-
-
 
 <div>
 <%= form_tag charges_path do %>
@@ -66,3 +45,22 @@
           data-locale="auto"></script>
 <% end %>
 </div>
+</div>
+
+
+<div>
+  <% @reviews.each do |review| %>
+    <div>
+      <strong><%= review.user.email%></strong>
+      <br />
+      <p><%= review.comment %></p>
+      <% if user_signed_in? && review.user == current_user %>
+        <p><%= link_to 'Delete', review_path(review), method: :delete %></p>
+      <% end %>
+    </div>
+  <% end %>
+  <% if user_signed_in? %>
+    <%= render 'reviews/form' %>
+  <% end %>
+</div>
+</div></div>
