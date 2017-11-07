@@ -12,7 +12,7 @@ You are to design, build, deploy and present a Ruby on Rails application.
 
 
 ## Design, Planning And Work-flow
-
+https://user-images.githubusercontent.com/28730748/32475753-92c8be30-c3c7-11e7-9ec3-3ecb673fc53c.png
 
 
 
@@ -37,7 +37,18 @@ Contact us page [click here](https://github.com/SanaJoshi/massage_me/blob/master
 
 ## Deployment
 
+
+
+
+
+
 ## Issues encountered during this project
+
+
+
+
+
+
 
 ## Tools and API
 
