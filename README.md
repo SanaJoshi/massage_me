@@ -12,7 +12,20 @@ You are to design, build, deploy and present a Ruby on Rails application.
 
 
 ## Design, Planning And Work-flow
-https://user-images.githubusercontent.com/28730748/32475753-92c8be30-c3c7-11e7-9ec3-3ecb673fc53c.png
+
+#### To create the user Story, I have used Trello.
+
+<img width="1126" alt="screen shot 2017-11-07 at 2 39 33 pm" src="https://user-images.githubusercontent.com/28730748/32476282-5f0dee14-c3ca-11e7-9f70-3582de3b1f04.png">
+
+#### To create ERD, DB Designer has been used.
+
+<img width="991" alt="screen shot 2017-11-07 at 2 48 26 pm" src="https://user-images.githubusercontent.com/28730748/32476331-c148ae2a-c3ca-11e7-999b-3c4f6d50bb1a.png">
+
+#### To show work flow of the both users of the App (Buyer and seller), www.draw.io has been used.
+
+
+ ![image](https://user-images.githubusercontent.com/28730748/32476005-dd4bd3e2-c3c8-11e7-9660-7b65cf012738.png)
+
 
 
 
