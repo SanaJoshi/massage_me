@@ -18,7 +18,7 @@
       <p class="text"> <%= link_to product.name,product %> <br>
         <span class="product-desc"><%= product.discription %></span> <br>
        <span class="product-price">$ <%= product.price %></span> </p>
-       <p><%= link_to 'Delete', product_path(product), method: :delete, data: { confirm: 'Are you sure?' } %></p>
+       <!-- <p><%#= link_to 'Delete', product_path(product), method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
     </div>
     <% end %>
   </div>
