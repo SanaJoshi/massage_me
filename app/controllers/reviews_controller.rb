@@ -70,12 +70,12 @@ class ReviewsController < ApplicationController
   # end
 
   def destroy
-      @review.destroy
-      respond_to do |format|
-        format.html {redirect_to products_url, notice:'Review was successfully destroyed.' }
-        format.json { head :no_content }
-      end
+    @review.destroy
+    respond_to do |format|
+      format.html {redirect_to products_url, notice:'Review was successfully destroyed.' }
+      format.json { head :no_content }
     end
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_review
@@ -84,6 +84,6 @@ class ReviewsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def review_params
-      params.require(:review).permit(:comment, :user_id, :product_id,)
+      params.require(:review).permit(:comment, :user_id, :product_id, :rating)
     end
 end
