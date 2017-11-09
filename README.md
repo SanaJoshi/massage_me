@@ -43,6 +43,7 @@ https://trello.com/b/Eirr8Zlb/she-term-2-final-project
 
 Home page [click here](https://github.com/SanaJoshi/massage_me/blob/master/app/assets/images/Home%20page.png)
 
+
 Sign up [click here](https://github.com/SanaJoshi/massage_me/blob/master/app/assets/images/Sign%20up%20page.png)
 
 
@@ -69,7 +70,7 @@ The app is deployed to Heroku cloud.
 * Shrine gem for image uploader.
 * Bootstrap
 
-##Troubleshooting
+## Troubleshooting
 * Troubleshooting
  * RSpec is added.
  to run the test, in your terminal bundle exec rspec.
