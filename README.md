@@ -13,7 +13,7 @@ You are to design, build, deploy and present a Ruby on Rails application.
 ## Synopsis
 The personal massage industry in Australia is currently worth $4 Billion with approximately 15,000 registered massage therapists.  As the service is very personal, many ladies don’t feel comfortable with the idea of going to a massage parlour and be allocated a male massage therapist to perform a full body massage on them. Many ladies are even more uncomfortable with the idea of a male massage therapist to visit their house.  Therefore, the concept of a LADIES ONLY massage where the providers and customers will all be ladies is potentially a very attractive concept.   
 
-## Please click here to checkout the website.
+## Please click here to checkout the website
 
 
 
@@ -39,11 +39,6 @@ https://trello.com/b/Eirr8Zlb/she-term-2-final-project
  <img width="1162" alt="pininterest" src="https://user-images.githubusercontent.com/28730748/32480448-07e169ae-c3e3-11e7-9cbb-3a25bac8d557.png">
 
 
-
-
-
-
-
 ## Wireframe of the Mobile app
 
 Home page [click here](https://github.com/SanaJoshi/massage_me/blob/master/app/assets/images/Home%20page.png)
@@ -63,33 +58,18 @@ Contact us page [click here](https://github.com/SanaJoshi/massage_me/blob/master
 
 ## Deployment
 
+The app is deployed to Heroku cloud.
 
 
+## Gems,Tools and API
 
+* Geocoder gem is installed to find nearby service, finding address and distance queries.
+* Stripe Gem is added for payment and transaction purposes.
+* Devise gem is installed for log in and sign up.
+* Shrine gem for image uploader.
+* Bootstrap
 
-
-## Issues encountered during this project
-
-
-
-
-
-
-
-## Tools and API
-
-
-
-
-
-
-
-
-
-
-
-
-
+##Troubleshooting
 * Troubleshooting
  * RSpec is added.
  to run the test, in your terminal bundle exec rspec.
