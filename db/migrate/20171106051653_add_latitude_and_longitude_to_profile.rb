@@ -3,4 +3,5 @@ class AddLatitudeAndLongitudeToProfile < ActiveRecord::Migration[5.1]
     add_column :profiles, :latitude, :float
     add_column :profiles, :longitude, :float
   end
+  
 end
