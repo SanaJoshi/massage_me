@@ -10,10 +10,17 @@
 
 You are to design, build, deploy and present a Ruby on Rails application.
 
+## Synopsis
+The personal massage industry in Australia is currently worth $4 Billion with approximately 15,000 registered massage therapists.  As the service is very personal, many ladies don’t feel comfortable with the idea of going to a massage parlour and be allocated a male massage therapist to perform a full body massage on them. Many ladies are even more uncomfortable with the idea of a male massage therapist to visit their house.  Therefore, the concept of a LADIES ONLY massage where the providers and customers will all be ladies is potentially a very attractive concept.   
+
+## Please click here to checkout the website.
+
+
 
 ## Design, Planning And Work-flow
 
 #### To create the user Story, I have used Trello.
+https://trello.com/b/Eirr8Zlb/she-term-2-final-project
 
 <img width="1126" alt="screen shot 2017-11-07 at 2 39 33 pm" src="https://user-images.githubusercontent.com/28730748/32476282-5f0dee14-c3ca-11e7-9f70-3582de3b1f04.png">
 
@@ -27,8 +34,10 @@ You are to design, build, deploy and present a Ruby on Rails application.
  ![image](https://user-images.githubusercontent.com/28730748/32476005-dd4bd3e2-c3c8-11e7-9660-7b65cf012738.png)
 
  #### Colour Theme and Fonts
+ https://www.pinterest.com.au/sanajoshi/color-themetypography-massage/
 
  <img width="1162" alt="pininterest" src="https://user-images.githubusercontent.com/28730748/32480448-07e169ae-c3e3-11e7-9cbb-3a25bac8d557.png">
+
 
 
 
