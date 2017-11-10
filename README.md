@@ -61,6 +61,13 @@ Contact us page [click here](https://github.com/SanaJoshi/massage_me/blob/master
 
 The app is deployed to Heroku cloud.
 
+```
+heroku logs --app massage-her
+heroku logs --tail
+heroku run rails db:migrate
+git push heroku master
+```
+
 
 ## Gems,Tools and API
 
