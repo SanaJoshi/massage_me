@@ -44,6 +44,7 @@ https://trello.com/b/Eirr8Zlb/she-term-2-final-project
 
 
 ## Wireframe of the Mobile app
+To create wireframes of the website, I have used https://balsamiq.com/
 
 Home page [click here](https://github.com/SanaJoshi/massage_me/blob/master/app/assets/images/Home%20page.png)
 
